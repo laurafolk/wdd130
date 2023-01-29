@@ -13,11 +13,9 @@ nav a {
 #hero-msg h4 {
     text-align: center;
 }
-
 .button-box {
     text-align: center;
 }
-
 .main-section {
     text-align: center;
 }
@@ -26,38 +24,38 @@ nav a {
     background-color: white;
 }
 body {
-    background-color: #4A0D67;
+    background-color: white;
 }
 header {
     background-color: rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: antiquewhite;
+    background-color: white;
     color:black;
 }
 .book {
-    background-color: antiquewhite;
+    background-color: white;
     color:#4A0D67;
     text-decoration: none;
 }
 .join {
-    background-color: antiquewhite;
+    background-color: white;
     color:#4A0D67;
     text-decoration: none;
 }
 .book:hover {
-    background-color: antiquewhite;
+    background-color: white;
     color:#4A0D67
 }
 .join:hover {
-    background-color: antiquewhite;
+    background-color: white;
     color:#4A0D67
 }
 .msg {
-    background-color: azure;
+    background-color: #d6a0ef;
 }
 footer {
-    background-color: antiquewhite;
+    background-color: rgba(20,30,13, .7);
     color:#4A0D67;
 }
 footer a {
