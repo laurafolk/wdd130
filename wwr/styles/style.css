@@ -6,6 +6,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -19,8 +20,16 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: 10px;
+    color:#4A0D67;
+}
 body {
     background-color: white;
+    font-family: Indie Flower, Special Eliete, Poppins;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #4A0D67;
@@ -33,6 +42,10 @@ nav a:hover {
     background-color: #B97DD5;
     color:#4A0D67;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -45,10 +58,14 @@ nav a:hover {
 .msg {
     background-color: #B97DD5;
     text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #B97DD5;
     color:#4A0D67;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color:#4A0D67;
@@ -64,6 +81,12 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
+h2 {
+    margin: 0;
+}
 h4 {
     color: #4A0D67;
 }
@@ -72,19 +95,33 @@ msg h2 {
 }
 msg p {
     color: #4A0D67;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .img {
     margin: 0 auto;
 }
 .home-title {
     color: #4A0D67;
+    font-family: 'Indie Flower', 'Special Elite', 'Poppins';
+    font-size: 2em;
+    margin-top: 10px;
 }
 div {
     max-width: 1600px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    border: 10px;
+    color:#4A0D67;
 }

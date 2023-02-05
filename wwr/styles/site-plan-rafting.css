@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&family=Special+Elite&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
-  --paragraph-font: Poppins, Helvetica, sans-serif;
+  --heading-font: "Indie Flower";
+  --paragraph-font: Poppins, Special Elite;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #4A0D67;  /* headlines on a white background */ 
