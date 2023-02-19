@@ -92,7 +92,7 @@ nav a:hover {
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6 / 10;
-    grid-row: 5 / 8;
+    grid-row: 6 / 7;
     box-shadow: 5px 5px 10px #B97DD5;
 }
 footer {
@@ -196,7 +196,7 @@ div {
 .mountains {
     display: grid;
     grid-column: 2 / 7;
-    grid-row: 6 / 7;
+    grid-row: 5 / 8;
 }
 
 @media screen and (max-width: 900px) {
