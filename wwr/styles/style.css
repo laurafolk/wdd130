@@ -174,7 +174,7 @@ div {
 .card-img, .mountains {
     width: 100%;
 }
-home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
