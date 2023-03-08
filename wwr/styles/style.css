@@ -198,6 +198,20 @@ div {
     grid-column: 2 / 7;
     grid-row: 5 / 8;
 }
+/*  css for page 2 faq's */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.msg {
+    background-color: #B97DD5;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6 / 10;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #B97DD5;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
