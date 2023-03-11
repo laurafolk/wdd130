@@ -213,6 +213,9 @@ div {
     box-shadow: 5px 5px 10px #B97DD5;
 }
 /*  css for page 3 contact us page */
+.contactus-grid {
+    display: grid;
+}
 form.form-example {
     display: table;
 }
