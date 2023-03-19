@@ -219,21 +219,18 @@ div {
 form.form-example {
     display: table;
 }
-
 div.form-example {
     display: table-row;
 }
-
 label,input {
     display: table-cell;
     margin-bottom: 10px;
 }
-
 label {
     padding-right: 10px;
 }
 #feedback {
-    background-color: antiquewhite;
+    background-color: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -247,7 +244,7 @@ label {
 }
 label,
 textarea {
-    font-size: 0.8rem;
+    font-size: 3rem;
     letter-spacing: 1px;
 }
 
@@ -264,6 +261,7 @@ label {
     display: block;
     margin-bottom: 10px;
 }
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
