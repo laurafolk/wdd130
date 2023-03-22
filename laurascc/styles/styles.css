@@ -158,8 +158,7 @@ footer p a:hover {
 .card-img {
     border: 10px solid #4F345A;
     transition: transform .5s;
-    box-shadow: 10px 10px 20px #B97DD5;
-    width: 150%;
+    box-shadow: 10px 10px 20px #ADFC92;
 }
 .home-grid {
     display: grid;
