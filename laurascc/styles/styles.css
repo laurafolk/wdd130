@@ -166,7 +166,7 @@ footer p a:hover {
     border: 10px solid #4F345A;
     transition: transform .5s;
     box-shadow: 10px 10px 20px #5D4E6D;
-    width: 130%;
+    width: 100%;
 }
 .home-grid {
     display: grid;
@@ -185,12 +185,15 @@ footer p a:hover {
     grid-row: 2 / 3;
 }
 .coasters {
-    grid-column: 1 / 10;
+    grid-column: 1 / 7;
     grid-row: 5 / 8;
+}
+.card-img, .rsz_red_coasters {
+    width: 100%;
 }
 .rsz_deep_pink_coasters-card, .rsz_purple_afghan-card, .rsz_sock_snowmena-card {
     margin: 200px 0;
-    border: 20px;
+    border: 30px;
     color: #4F345A;
 }
 
@@ -217,7 +220,8 @@ footer p a:hover {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    background: #ADFC92;
+    font-family: 'caveat', 'georgia', 'serif';
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -237,6 +241,7 @@ footer p a:hover {
   /* image */
   .rsz_resin_coasters, .rsz_ceramic_coasters2 {
     background-color: #4F345A;
+    height: 100%;
     width: 100%;
     padding: 20px;
   }
@@ -259,7 +264,7 @@ footer p a:hover {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #ADFC92;
     margin-top: 20px;
   }
   /* CSS for page three contact us page */
@@ -298,12 +303,6 @@ input[type=text], select, textarea {
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
-  }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -345,4 +344,8 @@ input[type=text], select, textarea {
     footer {
         margin-top: 25px;
     }
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
 }
