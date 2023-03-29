@@ -26,7 +26,7 @@ nav {
     grid-row: 1 / 2;
     margin-top: 100px;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
     text-align: center;
     color: white;
 }
@@ -132,6 +132,7 @@ nav a:hover {
 }
 .img {
     margin: 0 auto;
+    max-width: 100%;
 }
 footer {
     background-color: #8FA998;
@@ -205,6 +206,7 @@ footer p a:hover {
 .companyblog-grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 30px;
 }
 
 * {
@@ -218,20 +220,18 @@ footer p a:hover {
     text-align: center;
     background: #ADFC92;
     font-family: 'caveat', 'georgia', 'serif';
+    grid-column: 1 / 3;
   }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {
-    float: left;
-    width: 75%;
+    grid-column: 1 /2;
   }
   
   /* Right column */
   .rightcolumn {
-    float: right;
-    width: 25%;
-    padding-left: 20px;
+    grid-column: 2 /3;
   }
   
   /* image */
@@ -348,10 +348,3 @@ input[type=text], select, textarea {
         padding: 0;
       }
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-  }
