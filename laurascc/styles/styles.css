@@ -49,7 +49,7 @@ main section img {
     color: #4F345A;
 }
 body {
-    background-color: white;
+    background-color: #ADFC92;
     font-family: 'shantell', 'georgia', 'serif';
     font-size: 22px;
     margin: 0;
@@ -74,7 +74,7 @@ h5 {
 header {
     background-color: #8FA998;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 200px auto;
 }
 nav a:hover {
     background-color: #4F345A;
@@ -235,7 +235,7 @@ footer p a:hover {
   }
   
   /* image */
-  .rsz_resin_coasters, .rsz_ceramic_coasters2 {
+  .rsz_resin_coasters, .rsz_ceramic_coasters2, .rsz_profile_picture {
     background-color: #4F345A;
     height: 100%;
     width: 100%;
@@ -264,6 +264,11 @@ footer p a:hover {
     margin-top: 20px;
   }
   /* CSS for page three contact us page */
+  .contactus-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
