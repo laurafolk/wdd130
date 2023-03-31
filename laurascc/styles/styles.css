@@ -79,7 +79,7 @@ header {
 nav a:hover {
     background-color: #4F345A;
     color: #8FA998;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .message {
     background-color: #8FA998;
@@ -123,10 +123,11 @@ nav a:hover {
 }
 .logo {
     width: 150px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 #logo_link {
-    padding-top: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     justify-self: center;
     align-self: center;
 }
