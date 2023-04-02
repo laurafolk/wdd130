@@ -169,10 +169,6 @@ div {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #B97DD5;
 }
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
 .card-img, .mountains {
     width: 100%;
 }
@@ -217,53 +213,74 @@ div {
 /*  css for page 3 contact us page */
 .contactus-grid {
     display: grid;
+    grid-template-columns: 1fr;
 }
-form.form-example {
-    display: table;
-}
-div.form-example {
-    display: table-row;
-}
-label,input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
-label {
-    padding-right: 10px;
-}
-#feedback {
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
-.moveDown {
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 90%;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #4A0D67;
+    border-radius: 3em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
     margin-top: 3em;
-}
-label,
-textarea {
-    font-size: 3rem;
-    letter-spacing: 1px;
-}
-
-textarea {
-    padding: 10px;
-    max-width: 100%;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: 100%;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #4A0D67;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #4A0D67;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 3px;
+    
+  } 
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
