@@ -267,43 +267,77 @@ footer p a:hover {
     margin-top: 20px;
   }
   /* CSS for page three contact us page */
-  .contactus-grid {
+/*  css for page 3 contact us page */
+.contactus-grid {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-  /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #4F345A; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 12px; /* Add a top margin */
-    margin-bottom: 32px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 90%;
+    /* Form outline */
+    padding: 1em;
+    border: 5px solid #4F345A;
+    border-radius: 3em;
   }
   
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4F345A;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #8FA998;
+  form li + li {
+    margin-top: 3em;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
+  label {
+    /* Uniform size & alignment */
+    display: 100%;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #4F345A;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #4F345A;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 3px;
+    
   }
   
 @media screen and (max-width: 900px) {
