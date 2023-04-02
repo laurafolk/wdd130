@@ -111,6 +111,7 @@ nav a:hover {
     grid-column: 6 / 10;
     grid-row: 6 / 7;
     box-shadow: 20px 20px 30px #ADFC92;
+    border-radius: 15px;
   }
 .msg h2 {
    color: #4F345A; 
